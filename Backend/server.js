@@ -10,7 +10,7 @@ const pool = new Pool({
     user: 'postgres',
     host: 'postgres',
     database: 'attendance_db',
-    password: 'admin1023',
+    password: 'admin1234',
     port: 5432,
 });
 
@@ -278,5 +278,5 @@ app.get('/api/export', async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server running at http://13.232.17.95:${port}`);
+    console.log(`Server running at http://3.108.193.252:${port}`);
 });
